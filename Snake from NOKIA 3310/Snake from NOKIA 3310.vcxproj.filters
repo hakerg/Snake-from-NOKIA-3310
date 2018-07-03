@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Tic_Tac_Toe">
+      <UniqueIdentifier>{7e04b7ed-3830-4184-9696-72337a3bb059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tic_Tac_Toe">
+      <UniqueIdentifier>{9df0d082-768b-4b6d-836f-bce0021177e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animations">
+      <UniqueIdentifier>{afaf47c3-ce6a-4371-8896-de0172f642e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes">
+      <UniqueIdentifier>{3fda86db-04b8-4994-9a10-f9a814d3a9be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes\Menu">
+      <UniqueIdentifier>{4ea02c9e-048e-491f-8863-c59a7d1a0d2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes\Big_Text">
+      <UniqueIdentifier>{5e6d35a6-a6ea-4db2-bfaf-9b9d3f9e756b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animations">
+      <UniqueIdentifier>{b82e82be-dc06-417f-a492-ff4151d4f359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{ec6e059e-0847-45eb-abbe-6a4008c462bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes\Menu">
+      <UniqueIdentifier>{90c475a7-4b7b-415e-b36c-944f8d7a23a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes\Big_Text">
+      <UniqueIdentifier>{1368789a-9d74-4e5f-9ef3-de1c21baf61f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_List.cpp">
+      <Filter>Source Files\Scenes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake_Menu.cpp">
+      <Filter>Source Files\Scenes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake_Gameplay.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TTT_Menu.cpp">
+      <Filter>Source Files\Scenes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="TTT_Gameplay.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Composer.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Welcome.cpp">
+      <Filter>Source Files\Scenes\Big_Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Big_Text.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Spectrum.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Data_Container.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Constants.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTT_New_Select.cpp">
+      <Filter>Source Files\Scenes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="TTT_Board.cpp">
+      <Filter>Source Files\Tic_Tac_Toe</Filter>
+    </ClCompile>
+    <ClCompile Include="TTT_OX_Select.cpp">
+      <Filter>Source Files\Scenes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="TTT_Playground.cpp">
+      <Filter>Source Files\Tic_Tac_Toe</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Small_Cross.cpp">
+      <Filter>Source Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="Small_Nought.cpp">
+      <Filter>Source Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="Big_Nought.cpp">
+      <Filter>Source Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="Big_Cross.cpp">
+      <Filter>Source Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading_Bar.cpp">
+      <Filter>Source Files\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="Composer_Menu.cpp">
+      <Filter>Source Files\Scenes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Change_Tempo.cpp">
+      <Filter>Source Files\Scenes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Composer_Song.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="My_Songs.cpp">
+      <Filter>Source Files\Scenes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Song_Options.cpp">
+      <Filter>Source Files\Scenes\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_List.h">
+      <Filter>Header Files\Scenes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake_Menu.h">
+      <Filter>Header Files\Scenes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake_Gameplay.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TTT_Menu.h">
+      <Filter>Header Files\Scenes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="TTT_Gameplay.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Composer.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Welcome.h">
+      <Filter>Header Files\Scenes\Big_Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Big_Text.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Spectrum.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Data_Container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTT_New_Select.h">
+      <Filter>Header Files\Scenes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="TTT_Board.h">
+      <Filter>Header Files\Tic_Tac_Toe</Filter>
+    </ClInclude>
+    <ClInclude Include="TTT_OX_Select.h">
+      <Filter>Header Files\Scenes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="TTT_Playground.h">
+      <Filter>Header Files\Tic_Tac_Toe</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Small_Cross.h">
+      <Filter>Header Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="Small_Nought.h">
+      <Filter>Header Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="Big_Nought.h">
+      <Filter>Header Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="Big_Cross.h">
+      <Filter>Header Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading_Bar.h">
+      <Filter>Header Files\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="Composer_Menu.h">
+      <Filter>Header Files\Scenes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Change_Tempo.h">
+      <Filter>Header Files\Scenes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Composer_Song.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="My_Songs.h">
+      <Filter>Header Files\Scenes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Song_Options.h">
+      <Filter>Header Files\Scenes\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

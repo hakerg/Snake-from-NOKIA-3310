@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7350B417-86B9-4F40-A795-5DA67BDAFD7F}</ProjectGuid>
+    <RootNamespace>Snake_from_NOKIA_3310</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Documents\Visual Studio 2015\Projects\Snake from NOKIA 3310\packages\bassmidi24\c;%(AdditionalIncludeDirectories);C:\Users\DELL\Documents\Visual Studio 2015\Biblioteki\SFML-2.5.0\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\DELL\Documents\Visual Studio 2015\Projects\Snake from NOKIA 3310\packages\bassmidi24\c;C:\Users\DELL\Documents\Visual Studio 2015\Biblioteki\SFML-2.5.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>bassmidi.lib;sfml-audio-d.lib;sfml-graphics-d.lib;sfml-network-d.lib;sfml-system-d.lib;sfml-window-d.lib;sfml-main-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\DELL\Documents\Visual Studio 2015\Projects\Snake from NOKIA 3310\packages\bassmidi24\c;C:\Users\DELL\Documents\Visual Studio 2015\Biblioteki\SFML-2.5.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>C:\Users\DELL\Documents\Visual Studio 2015\Projects\Snake from NOKIA 3310\packages\bassmidi24\c;C:\Users\DELL\Documents\Visual Studio 2015\Biblioteki\SFML-2.5.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>bassmidi.lib;sfml-audio.lib;sfml-graphics.lib;sfml-network.lib;sfml-system.lib;sfml-window.lib;sfml-main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="Big_Cross.cpp" />
+    <ClCompile Include="Big_Nought.cpp" />
+    <ClCompile Include="Big_Text.cpp" />
+    <ClCompile Include="Bitmap.cpp" />
+    <ClCompile Include="BitmapFont.cpp" />
+    <ClCompile Include="Change_Tempo.cpp" />
+    <ClCompile Include="Composer.cpp" />
+    <ClCompile Include="Composer_Menu.cpp" />
+    <ClCompile Include="Composer_Song.cpp" />
+    <ClCompile Include="Constants.cpp" />
+    <ClCompile Include="Data_Container.cpp" />
+    <ClCompile Include="Game_List.cpp" />
+    <ClCompile Include="Loading_Bar.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="My_Songs.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="Scene_Manager.cpp" />
+    <ClCompile Include="Small_Cross.cpp" />
+    <ClCompile Include="Small_Nought.cpp" />
+    <ClCompile Include="Snake_Gameplay.cpp" />
+    <ClCompile Include="Snake_Menu.cpp" />
+    <ClCompile Include="Song_Options.cpp" />
+    <ClCompile Include="Spectrum.cpp" />
+    <ClCompile Include="TTT_Board.cpp" />
+    <ClCompile Include="TTT_Gameplay.cpp" />
+    <ClCompile Include="TTT_Menu.cpp" />
+    <ClCompile Include="TTT_New_Select.cpp" />
+    <ClCompile Include="TTT_OX_Select.cpp" />
+    <ClCompile Include="TTT_Playground.cpp" />
+    <ClCompile Include="Welcome.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="Big_Cross.h" />
+    <ClInclude Include="Big_Nought.h" />
+    <ClInclude Include="Big_Text.h" />
+    <ClInclude Include="Bitmap.h" />
+    <ClInclude Include="BitmapFont.h" />
+    <ClInclude Include="Change_Tempo.h" />
+    <ClInclude Include="Composer.h" />
+    <ClInclude Include="Composer_Menu.h" />
+    <ClInclude Include="Composer_Song.h" />
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="Data_Container.h" />
+    <ClInclude Include="Game_List.h" />
+    <ClInclude Include="Loading_Bar.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="My_Songs.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Scene_Manager.h" />
+    <ClInclude Include="Small_Cross.h" />
+    <ClInclude Include="Small_Nought.h" />
+    <ClInclude Include="Snake_Gameplay.h" />
+    <ClInclude Include="Snake_Menu.h" />
+    <ClInclude Include="Song_Options.h" />
+    <ClInclude Include="Spectrum.h" />
+    <ClInclude Include="TTT_Board.h" />
+    <ClInclude Include="TTT_Gameplay.h" />
+    <ClInclude Include="TTT_Menu.h" />
+    <ClInclude Include="TTT_New_Select.h" />
+    <ClInclude Include="TTT_OX_Select.h" />
+    <ClInclude Include="TTT_Playground.h" />
+    <ClInclude Include="Welcome.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\BASS.redist.2.4.12.1\build\native\BASS.redist.targets" Condition="Exists('..\packages\BASS.redist.2.4.12.1\build\native\BASS.redist.targets')" />
+    <Import Project="..\packages\BASS.2.4.12.1\build\native\BASS.targets" Condition="Exists('..\packages\BASS.2.4.12.1\build\native\BASS.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\BASS.redist.2.4.12.1\build\native\BASS.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\BASS.redist.2.4.12.1\build\native\BASS.redist.targets'))" />
+    <Error Condition="!Exists('..\packages\BASS.2.4.12.1\build\native\BASS.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\BASS.2.4.12.1\build\native\BASS.targets'))" />
+  </Target>
+</Project>
